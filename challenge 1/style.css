@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 0.625em;
+  }
+  *{
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+           
+  }
+  body{
+      background-color:darkgray;
+  }
+  h1{
+      margin: 2rem 0rem;
+      text-align: center;
+      font-size: 7rem;
+      color: red;
+      font-weight: bold;
+  }
+  form {
+      margin-top: 5rem;
+      text-align: center;
+      border: red solid 0px ;
+  }
+  input{
+      height: 10rem;
+      width: 60rem;
+      border: green solid 0px;
+      font-size: 4rem;
+      border-radius: 4px;
+      padding-left: 2rem;
+  }
+  #searchB{
+    font-size: 4rem;
+    height: 10rem;
+    width: 15rem;
+    border-radius: 4px;
+    border: 2px solid red;
+    margin-left: 2rem;
+  }
+  #searchB:hover{
+      background-color: greenyellow;
+      cursor: pointer;
+  }
